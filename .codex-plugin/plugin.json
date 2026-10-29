@@ -1,0 +1,34 @@
+{
+  "name": "parallels",
+  "version": "0.1.0",
+  "description": "Automate Parallels Desktop for Mac and its Linux or Windows VMs with prlctl and prlsrvctl.",
+  "author": {
+    "name": "kastruppro"
+  },
+  "repository": "https://github.com/kastruppro/parallels-skills",
+  "license": "MIT",
+  "keywords": [
+    "parallels",
+    "parallels-desktop",
+    "prlctl",
+    "virtual-machine",
+    "macos"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Parallels Desktop",
+    "shortDescription": "Automate Parallels Desktop and its VMs",
+    "longDescription": "Inspect and operate Parallels Desktop virtual machines from the macOS host: inventory, power, configuration, guest commands, screenshots, snapshots, clones, archives and host networking, with explicit safety checks before destructive actions.",
+    "developerName": "kastruppro",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "List my Parallels VMs and their state.",
+      "Snapshot my Linux VM before changing its CPU and memory."
+    ]
+  }
+}

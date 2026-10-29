@@ -1,0 +1,14 @@
+{
+  "name": "parallels-skills",
+  "description": "Parallels Desktop automation skills for Claude Code.",
+  "owner": {
+    "name": "kastruppro"
+  },
+  "plugins": [
+    {
+      "name": "parallels",
+      "source": "./",
+      "description": "Inspect and automate Parallels Desktop VMs safely from the macOS host."
+    }
+  ]
+}

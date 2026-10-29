@@ -1,0 +1,19 @@
+{
+  "name": "parallels",
+  "displayName": "Parallels Desktop",
+  "version": "0.1.0",
+  "description": "Automate Parallels Desktop for Mac and its Linux or Windows VMs with prlctl and prlsrvctl: inventory, lifecycle, configuration, guest commands, snapshots, clones, networking and safe recovery.",
+  "author": {
+    "name": "kastruppro"
+  },
+  "repository": "https://github.com/kastruppro/parallels-skills",
+  "license": "MIT",
+  "keywords": [
+    "parallels",
+    "parallels-desktop",
+    "prlctl",
+    "virtual-machine",
+    "macos"
+  ],
+  "skills": "./skills/"
+}
